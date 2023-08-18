@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoginScript : MonoBehaviour
 {
@@ -15,8 +16,8 @@ public class LoginScript : MonoBehaviour
     {
         
     }
-    void BotaoLogin()
+    public void BotaoLogin()
     {
-        
+        SceneManager.LoadScene("TelaInicial");
     }
 }
